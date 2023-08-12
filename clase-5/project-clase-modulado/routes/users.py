@@ -1,6 +1,6 @@
 # Blueprint: representa una colección de rutas que pueden ser registradas luego en la aplicación, se utiliza 
 # para modularizar las rutas
-from flask import Blueprint
+from flask import Blueprint, request
 from utils.utils import response
 from models.user import User
 from config.database import db
